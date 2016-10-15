@@ -1,0 +1,7 @@
+[Service]
+ExecStart=
+ExecStart=/usr/bin/docker daemon \
+<% @docker_opts.each do |a| -%>
+    <%= a %> \
+<% end -%>
+    --host=fd://

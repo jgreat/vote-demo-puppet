@@ -1,0 +1,7 @@
+---
+accounts:
+  jason.greathouse:
+    uid: 5001
+    realname: Jason Greathouse
+    groups: devops
+    github_user: jgreat

@@ -1,0 +1,14 @@
+---
+common:
+  rancher:
+    server:
+      master: a1
+      image: rancher/server
+      version: v1.1.1
+    agent:
+      image: rancher/agent
+      version: v1.0.1
+      url: "https://rancher.leankitdev.com/v1/scripts"
+      key:
+        jgreat1:
+          demo:
